@@ -1,0 +1,126 @@
+/* Navbar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#show-login{
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+.rightl {
+    position: absolute;
+    right: 274px;
+    top: 20px;
+    display: inline-block;
+}
+
+#show-register{
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+.rightr {
+    position: absolute;
+    right: 31px;
+    top: 20px;
+    display: inline-block;
+}
+
+.popup{
+    width: 237px;
+    padding: 1px 30px;
+}
+.popup1{
+    width: 237px;
+    padding: 1px 30px;
+}
+
+/* Home */
+#home{
+    height: 310px;
+    padding: 9px 111px;
+}
+
+#home::before {
+    height: 600px;
+}
+
+#titlebox h1{
+    font-size: 35px;
+}
+
+#titlebox p{
+    font-size: 20px;
+}
+
+/* Info */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 37px;
+    height: 235px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    color: rgb(47, 2, 2);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 27px;
+}
+
+.info p {
+    color: rgb(47, 2, 2);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+}
+
+
+/* form */
+
+#form::before {
+    content: "";
+    position: absolute;
+    background: url(/images/feedback1.jpg) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 114%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#form h1 {
+    color: rgb(53, 15, 15);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+#formbox form {
+    width: 78%;
+}
+
+#submit{
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding: 41px 113px;
+    font-family: 'Dosis', sans-serif;
+    opacity: 0.8;
+}
